@@ -1,0 +1,70 @@
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 99vw;
+    height: 200vh;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.square{
+    border: 5px dashed lightblue;
+    height: 600px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+
+.cuadrado1, 
+.cuadrado2,
+.cuadrado3
+{
+    position: absolute;
+    display: inline-block;
+    height: 100px;
+    width: 100px; 
+}
+
+.cuadrado1{
+    background: lightblue;
+    left: 0;
+}
+
+.cuadrado2{
+    background: lightgoldenrodyellow;
+    bottom: 400px;
+    left: 100px;
+}
+
+.cuadrado3{
+    background: lightseagreen;
+    right: 0;
+}
+
+.cuadrado4{
+    position: fixed;
+    display: inline-block;
+    background: orange;
+    bottom: 600px;
+    height: 100px;
+    width: 100px; 
+}
+
+.cuadrado5{
+    position: sticky;
+    display: inline-block;
+    background: orchid;
+    height: 100px;
+    width: 100px;  
+    top:0;
+}
